@@ -48,7 +48,12 @@ summary.lm(headlen)
 
 
 
-
+```{r}
+width <- lm(LENGTH~HEADWTH,data=bears)
+plot(LENGTH~HEADWTH,data=bears)
+abline(width)
+summary.lm(width)
+```
 
 
 
