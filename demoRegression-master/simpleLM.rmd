@@ -38,6 +38,8 @@ summary.lm(chest)
 ```
 
 
+The trajectory of the CHEST data follows the expected relationship of another variable explaining LENGTH fairly well. This can be expected to perform fairly similarly to the NECK data. 
+
 
 ```{r}
 headlen <- lm(LENGTH~HEADLEN,data=bears)
@@ -45,6 +47,9 @@ plot(LENGTH~HEADLEN,data=bears)
 abline(headlen)
 summary.lm(headlen)
 ```
+
+The data of HEADLEN is grouped very closely and many of the data points overlap suggesting that this could be the best option for a variable determining LENGTH. 
+
 
 
 
@@ -55,7 +60,7 @@ abline(width)
 summary.lm(width)
 ```
 
-
+The data under this group is fairly scattered and performs the worst out of any option we have seen thus far. 
 
 
 ```{r}
@@ -64,6 +69,8 @@ plot(LENGTH~AGE,data=bears)
 abline(age)
 summary.lm(age)
 ```
+
+This data grouping is similar to the previous one and gives no certainty as to consistently determining the LENGTH of a bear based on AGE. This will most likely be placed at the bottom of the ranking near HEADWTH. 
 
 
 
