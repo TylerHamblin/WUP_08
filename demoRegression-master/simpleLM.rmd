@@ -39,7 +39,12 @@ summary.lm(chest)
 
 
 
-
+```{r}
+headlen <- lm(LENGTH~HEADLEN,data=bears)
+plot(LENGTH~HEADLEN,data=bears)
+abline(headlen)
+summary.lm(headlen)
+```
 
 
 
