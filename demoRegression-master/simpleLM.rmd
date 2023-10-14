@@ -59,21 +59,22 @@ summary.lm(width)
 
 The list, from best to worst, of the different variables in relation to the length of a bear by their residual standard error and their adjusted R-squared:
 
-1. LENTH~AGE; Residual Standard Error: 7.5 on 52 degrees of freedom, Adjusted R-Squared: 0.50
-
-2. LENTH~HEADWTH; Residual Standard Error: 7.32 on 52 degrees of freedom, Adjusted R-Squared: 0.5321
-
-3. LENTH~WEIGHT; Residual Standard Error: 5.4 on 52 degrees of freedom, Adjusted R-Squared: 0.7
-
-4. LENTH~NECK; Residual Standard Error: 5.376 on 52 degrees of freedom, Adjusted R-Squared: 0.7476
-
-5. LENTH~CHEST; Residual Standard Error: 4.939 on 52 degrees of freedom, Adjusted R-Squared: 0.7869
-
-6. LENTH~HEADLEN; Residual Standard Error: 4.235 on 52 degrees of freedom, Adjusted R-Squared: 0.8434
 
 
+1. LENTH~HEADLEN; Residual Standard Error: 4.235 on 52 degrees of freedom, Adjusted R-Squared: 0.8434
+
+2. LENTH~CHEST; Residual Standard Error: 4.939 on 52 degrees of freedom, Adjusted R-Squared: 0.7869
+
+3. LENTH~NECK; Residual Standard Error: 5.376 on 52 degrees of freedom, Adjusted R-Squared: 0.7476
+
+4. LENTH~WEIGHT; Residual Standard Error: 5.4 on 52 degrees of freedom, Adjusted R-Squared: 0.7
+
+5. LENTH~HEADWTH; Residual Standard Error: 7.32 on 52 degrees of freedom, Adjusted R-Squared: 0.5321
+
+6. LENTH~AGE; Residual Standard Error: 7.5 on 52 degrees of freedom, Adjusted R-Squared: 0.50
 
 
+## Conclusion
 
 
 
