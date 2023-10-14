@@ -57,6 +57,17 @@ summary.lm(width)
 
 
 
+
+```{r}
+age <- lm(LENGTH~AGE,data=bears)
+plot(LENGTH~AGE,data=bears)
+abline(age)
+summary.lm(age)
+```
+
+
+
+
 The list, from best to worst, of the different variables in relation to the length of a bear by their residual standard error and their adjusted R-squared:
 
 
