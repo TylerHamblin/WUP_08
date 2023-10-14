@@ -87,5 +87,6 @@ The list, from best to worst, of the different variables in relation to the leng
 
 ## Conclusion
 
+In this assignment we ran linear regression models for each of the continuous or discrete numerical variables when deciding what factor is most recognizable in correlation to the LENGTH of a bear. A part of the code chunks was included to read out the residual standard error (smaller is better) and the adjusted R-Squared values (bigger is better). According to these rules the most accurate predictor of overall length is the length of a bears head. 
 
 
